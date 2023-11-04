@@ -1,0 +1,26 @@
+{
+  "name": "password-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "engines": {
+    "node": "14.16.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "shivasai",
+  "license": "ISC",
+  "proxy": "http://localhost:9000",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "mongoose-encryption": "^2.1.0",
+    "nodemon": "^2.0.20",
+    "piston-client": "^1.0.2"
+  }
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.randompass{
+    display:block;
+    text-decoration: none;
+    color:black;
+    font-size:16px;
+    height:5vh;
+   text-align: center;
+   padding-top:18px;
+    background-color: white;
+    border-radius: 7px;
+    width:10vw;
+}
+@media only screen and (max-width:900px) {
+   .heading{
+       font-size: 70px !important;
+   }
+   .info{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.1rem !important;
+    } 
+    .container{
+        right: 25% !important;
+    }  
+}
+@media only screen and (max-width:600px){
+    .heading{
+        font-size: 80px !important;
+    }
+    .container{
+        right: 0 !important;
+    }
+    .info{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.2rem !important;
+    }
+}
+@media only screen and (max-width:400px){
+    .heading{
+        font-size: 85px !important;
+    }
+    .container{
+        right: 9% !important;
+    }
+    .info{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.01rem !important;
+    }
+    .special{
+        display: block !important;
+    }
+    .container{
+        top: 25% !important;
+    }
+}
+
+.landing{
+    height: 100vh;
+    width: 99vw;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#myVideo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.container{
+    color: white;
+    height: fit-content;
+    width:fit-content;
+    position: absolute;
+    top: 31.4%;
+    right: 5.15%;
+    z-index: 0;
+}
+.special{
+    color: #1DB954;
+}
+.heading{
+    font-size: 120px;
+}
+.info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+.google-btn{
+    margin-top: 30px;
+    color: black;
+}
+.contents{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.main{
+    overflow: hidden;
+}
+.landing__page{
+    width: 100%;
+}
+.error{
+    color: rgb(119, 130, 105) !important;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 10px;
+    font-size: 4vh;
+}
